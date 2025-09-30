@@ -1,5 +1,28 @@
-*{
-    padding: none;
-    margin: none;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(90deg, #C8BCABed,#E3DED0);
+}
+header{
+    height: fit-content;
+    padding: 10px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.226);
+}
+
+.navbar{
+    color: black;
+    gap: 15px;
+    text-decoration: none;
+    justify-content: space-evenly;
 }
